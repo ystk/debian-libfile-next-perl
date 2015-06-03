@@ -1,0 +1,59 @@
+libfile-next-perl (1.06-1) unstable; urgency=low
+
+  [ gregor herrmann ]
+  * debian/control: Changed: Switched Vcs-Browser field to ViewSVN
+    (source stanza).
+
+  [ Nathan Handler ]
+  * debian/watch: Update to ignore development releases.
+
+  [ Ansgar Burchardt ]
+  * New upstream release.
+  * debian/copyright: Update to current proposal.
+  * debian/copyright: Do not list Debian Perl Group as copyright holder.
+    Instead list all contributors (taken from debian/changelog).
+  * debian/copyright: Add X-Contact-BTS field.
+  * Bump Standards-Version to 3.8.2.
+  * debian/control: Do not capitalize short description.
+  * Add myself to Uploaders.
+  * Refresh rules for debhelper 7.
+
+  [ Jonathan Yu ]
+  * New upstream release
+
+  [ Damyan Ivanov ]
+  * Standards-Version: 3.8.3 (no changes)
+  * Quote upstream license statement verbatim
+
+ -- Damyan Ivanov <dmn@debian.org>  Tue, 18 Aug 2009 11:33:47 +0300
+
+libfile-next-perl (1.02-1) unstable; urgency=low
+
+  [ Peter Makholm ]
+  * New maintainer: Debian Perl Group
+
+  [ gregor herrmann ]
+  * debian/control: Added: Vcs-Svn field (source stanza); Vcs-Browser
+    field (source stanza); Homepage field (source stanza). Removed: XS-
+    Vcs-Svn fields (source stanza).
+
+  [ Damyan Ivanov ]
+  * New upstream release
+  * debian/copyright: updated copyright years; converted to machine-readable
+    format
+  * debian/rules: converted deom cdbs to plain debhelper
+  * debian/control:
+    + move perl from B-D to B-D-I
+    + add libtest-pod-perl and libtest-pod-coverage-perl to B-D-I
+    + Standards-Version: 3.7.3 (no changes)
+  * debhelper compatibility level 6
+  * debian/watch: use dist-based URL, improved pattern
+  * add myself to Uploaders
+
+ -- Damyan Ivanov <dmn@debian.org>  Fri, 18 Jan 2008 10:46:19 +0200
+
+libfile-next-perl (1.00-1) unstable; urgency=low
+
+  * Initial Release (Closes: #436128).
+
+ -- Peter Makholm <peter@makholm.net>  Sun, 07 Oct 2007 13:35:24 +0000
