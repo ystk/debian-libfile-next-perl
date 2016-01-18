@@ -1,0 +1,27 @@
+Source: libfile-next-perl
+Section: perl
+Priority: optional
+Build-Depends: debhelper (>= 9)
+Build-Depends-Indep: perl,
+ libtest-pod-perl,
+ libtest-pod-coverage-perl
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Damyan Ivanov <dmn@debian.org>,
+ Ansgar Burchardt <ansgar@debian.org>,
+ gregor herrmann <gregoa@debian.org>,
+ Krzysztof Krzyżaniak (eloy) <eloy@debian.org>
+Standards-Version: 3.9.4
+Homepage: https://metacpan.org/release/File-Next/
+Vcs-Git: git://anonscm.debian.org/pkg-perl/packages/libfile-next-perl.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-perl/packages/libfile-next-perl.git
+
+Package: libfile-next-perl
+Architecture: all
+Depends: ${perl:Depends}, ${shlibs:Depends}, ${misc:Depends}
+Description: file-finding iterator
+ File::Next is an iterator-based module for finding files.  It's
+ lightweight, has no dependencies, runs under taint mode, and puts your
+ program more directly in control of file selection.
+ .
+ It's taken heavily from Mark Jason Dominus' excellent book "Higher
+ Order Perl".  http://hop.perl.plover.com/
